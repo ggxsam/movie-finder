@@ -133,42 +133,6 @@ const HomePage = () => {
                 </div>
               )}
             </div>
-
-            {/* Feature highlights - only show when not searched and no favorites */}
-            {!hasSearched && favoritesCount === 0 && (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
-                  <FiFilm className="text-3xl text-orange-400 mx-auto mb-4" />
-                  <h3 className="text-lg font-semibold text-white mb-2">
-                    Vast Library
-                  </h3>
-                  <p className="text-gray-400 text-sm">
-                    Access thousands of movies from different genres and eras
-                  </p>
-                </div>
-
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
-                  <FiSearch className="text-3xl text-blue-400 mx-auto mb-4" />
-                  <h3 className="text-lg font-semibold text-white mb-2">
-                    Smart Search
-                  </h3>
-                  <p className="text-gray-400 text-sm">
-                    Find movies by title, actor, director, or genre instantly
-                  </p>
-                </div>
-
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
-                  <BiMoviePlay className="text-3xl text-orange-400 mx-auto mb-4" />
-                  <h3 className="text-lg font-semibold text-white mb-2">
-                    Detailed Info
-                  </h3>
-                  <p className="text-gray-400 text-sm">
-                    Get comprehensive details, ratings, and reviews for every
-                    movie
-                  </p>
-                </div>
-              </div>
-            )}
           </div>
         </div>
 
